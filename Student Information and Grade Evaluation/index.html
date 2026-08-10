@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="styles.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Information and Grade Evaluation</title>
+
+</head>
+
+    <body>
+
+        <div class="student">
+            <h1>Student Information and Grade Evaluation</h1>
+                
+                <h2>Input Student Information</h2>
+                <label for ="fname">First Name:</label>
+                <input type="text" id="fname" name="fname"><br><br>
+
+                <label for ="lname">Last Name:</label>
+                <input type="text" id="lname" name="lname">
+
+
+                <h2>Input Student Quiz Scores</h2> 
+                <label for ="quiz1">Quiz 1:</label>
+                <input type="number" id="quiz1" name="quiz1"><br><br>
+
+                <label for ="quiz2">Quiz 2:</label>
+                <input type="number" id="quiz2" name="quiz2"><br><br>
+
+                <label for ="quiz3">Quiz 3:</label>
+                <input type="number" id="quiz3" name="quiz3"><br><br>
+
+
+                <h2>Student Grade Evaluation (75% Passing Avg)</h2>
+               <label><span id="grade">Status: </span></label><br><br>
+
+
+                 <button id="submitBtn">Calculate</button>
+                 
+                 <button id="resetBtn">Next Student</button>
+
+        </div>
+
+         <script src="script.js"></script> <!-- javascript -->
+
+    </body>
+
+
+
+
+</html>
