@@ -1,0 +1,40 @@
+body {
+  background-color: #A1D8B5;
+}
+body .contactForm {
+  width: 400px;
+  height: 680px;
+  padding: 50px;
+  padding-top: 20px;
+  border-radius: 20px;
+  border: 0px;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: roboto, sans-serif;
+  font-size: 16px;
+  text-align: center;
+  row-gap: 5px;
+  background-color: #4CB572;
+}
+body .contact-image {
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+body button.submit {
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  margin-top: 20px;
+  background-color: #135E4B;
+  font-family: roboto, sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+}
+body button.submit:hover {
+  background-color: #348168;
+}/*# sourceMappingURL=styles.css.map */
