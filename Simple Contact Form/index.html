@@ -8,27 +8,27 @@
     <link rel="stylesheet" href="CSS/styles.css">
 </head>
 
-    
     <body> 
     
-   
-        <form class="contactForm">
+        <header class="navBar" id="navbar"></header>   
+        
+        <form class="contactForm" name="myForm">
         
             <img src="images/contact.png" alt="Contact Us" class="contact-image">
-            <h3>Contact Form</h3>
+            <h3 id="formHeading">Contact Form</h3>
 
-            
             <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
+            <input type="text" id="name" name="name">
 
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
+            <input type="email" id="email" name="email">
 
             <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
+            <textarea id="message" name="message"></textarea>
 
             <button type="submit" class="submit">Submit</button>
         
         </form>
-    
+        <script src="Javascript/script.js"></script>
     </body>
+</html>
