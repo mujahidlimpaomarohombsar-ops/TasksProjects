@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JSONPlaceholder Users</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <section class="app">
+      <header class="app__header">
+        <p class="eyebrow">Fetch API Demo</p>
+        <h1>JSONPlaceholder Users</h1>
+        <p class="intro">
+          Retrieve user information from the JSONPlaceholder API without reloading the page.
+        </p>
+        <button id="loadUsersBtn" class="button" type="button">
+          Load Users
+        </button>
+      </header>
+
+      <div id="status" class="status" role="status" aria-live="polite"></div>
+      <section id="usersContainer" class="users" aria-label="User list"></section>
+    </section>
+  </main>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
